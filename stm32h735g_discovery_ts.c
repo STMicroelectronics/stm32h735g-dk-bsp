@@ -724,7 +724,7 @@ static void TS_EXTI_Callback(void)
   BSP_TS_Callback(0);
 
   /* Clear interrupt on TS driver */
-  if (Ts_Drv->ClearIT(Ts_CompObj) < 0)
+  if (Ts_Drv->ClearIT(Ts_CompObj[0]) < 0)
   {
     /* Nothing to do */
   }
