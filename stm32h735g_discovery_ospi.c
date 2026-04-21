@@ -1458,7 +1458,7 @@ int32_t BSP_OSPI_RAM_ConfigHyperRAM(uint32_t Instance, BSP_OSPI_RAM_Latency_t La
 {
   OSPI_HyperbusCfgTypeDef sHyperbusCfg;
   int32_t ret = BSP_ERROR_NONE;
-  uint32_t initial_latency, latency_mode;
+  uint32_t initial_latency = 0U, latency_mode = 0U;
   uint16_t reg;
 
   /* Check if the instance is supported */
