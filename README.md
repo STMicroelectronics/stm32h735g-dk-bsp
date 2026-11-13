@@ -1,6 +1,6 @@
 # BSP STM32H735G-DK Component
 
-![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32h735g-dk.svg?color=brightgreen)
+![tag](https://img.shields.io/badge/tag-v1.2.4-brightgreen.svg)
 
 ## Overview
 
